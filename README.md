@@ -1,2 +1,9 @@
-# saas_template
-a laravel 10 template for SaaS applications, using tenanct for laravel package
+# Usage
+
+```
+composer install
+cp .env.example .env
+composer dump-autoload
+
+php artisan serve
+```
